@@ -1,0 +1,7 @@
+header {
+  margin: 8rem 0 3rem 0;
+}
+
+header a {
+  color: var(--color-info);
+}
