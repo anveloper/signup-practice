@@ -14,10 +14,10 @@ const authSlice = createSlice({
   initialState,
   reducers: {
     signupUser(state, action) {
-      state.userInfo = action.payload.data;
+      state.userInfo = action.payload;
     },
     loginUser(state, action) {
-      state.userInfo = action.payload.data;
+      state.userInfo = action.payload;
     }
   }
 });
